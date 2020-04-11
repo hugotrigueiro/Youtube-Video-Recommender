@@ -17,7 +17,7 @@ RUN python db_starter.py
 #USER myuser
 
 # Run the app. CMD is required to run on Heroku
-# $PORT is set by Heroky
+# $PORT is set by Heroku
 #CMD gunicorn --bind 8.8.8.8:$PORT wsgi
 CMD gunicorn --bind 0.0.0.0:$PORT wsgi
 #CMD gunicorn --bind 0.0.0.0:80 wsgi
