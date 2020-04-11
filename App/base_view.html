@@ -1,0 +1,38 @@
+<!-- VIEW -->
+<html>
+
+    <head>
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <section id="header">
+            <div class="container">
+                <h1 class="title">Recomendador de Vídeos do Youtube</h1>
+                <h3 class="subtitle">Segundos desde a última atualização: {}</h3>
+            </div>
+        </section>
+        <section id="bg">
+            <div class="overlay">    
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3">
+                            <h3 class="title-top">Top 5 Vídeos com Maior Score</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="carousel slide" data-interval="false" data-ride="carousel" id="carouselExampleControls">
+                                <div class="carousel-inner">
+                                {}
+                    </div>
+                                <a class="carousel-control-prev" data-slide="prev" href="#carouselExampleControls" role="button"> <span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span> </a>
+                                <a class="carousel-control-next" data-slide="next" href="#carouselExampleControls" role="button"> <span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="section-table">
+                        <button class="btn btn-primary btn-sm list-button" type="button">Lista Completa de Vídeos Recomendados</button>

@@ -1,0 +1,150 @@
+</div>
+            </section>
+<section id="section-footer">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-6 offset-md-3">
+                            <p>Criado por Hugo Trigueiro
+                                <a href="https://www.linkedin.com/in/hugo-trigueiro/" class="fa fa-linkedin"></a>
+                                <a href="https://github.com/hugotrigueiro" class="fa fa-github"></a>
+                                <a href="https://medium.com/@hugotrigueiro" class="fa fa-medium"></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+    </div>
+</body>
+
+<style>
+    body {
+        color: #fff;
+        font-family: "Montserrat", sans-serif;
+        margin: 0px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        text-align: center;
+    }
+    
+    #bg {
+        background-image: url("data-science-wallpaper.jpg");
+        background-size: cover;
+    }
+    
+    .overlay {
+        background-color: rgba(0, 0, 0, 0.76);
+    }
+    
+    .minor-height {
+        height: 100%;
+    }
+    
+    .max-height {
+        height: auto;
+    }
+    
+    #hero {
+        background-color: #2c3e50;
+        color: #fff;
+        padding: 10px 0px 10px 0px;
+    }
+    
+    .title {
+        font-size: 28px;
+        margin: 10px auto;
+    }
+    
+    .subtitle {
+        font-size: 14px;
+        display: none;
+    }
+    
+    .title-top {
+        font-size: 24px;
+        margin: 10px auto;
+    }
+    
+    .iframe-video {
+        display: block;
+        margin: 0 auto;
+    }
+    /* Carrossel */
+    
+    .carousel-inner {
+        width: 800px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .carousel-item div p {
+        text-align: center;
+        font-size: 18px;
+        margin: 5px auto;
+    }
+    
+    .carousel-control-prev {
+        left: 5%;
+    }
+    
+    .carousel-control-next {
+        right: 5%;
+    }
+    /* Table */
+    
+    #section-table {
+        padding: 10px 0px 20px 0px;
+    }
+    
+    .list-button {
+        display: block;
+        margin: 0 auto;
+        padding: 10px 30px;
+        font-size: 16px;
+    }
+    
+    .table-videos {
+        display: none;
+        margin: 30px auto;
+    }
+    /* Footer */
+    
+    #section-footer {
+        padding: 10px 0px 10px 0px;
+        background-color: #000;
+        text-align: center;
+    }
+    
+    #section-footer .container p {
+        margin: 0;
+    }
+    
+    .fa {
+        padding: 8px;
+        font-size: 16px;
+        text-align: center;
+        border-radius: 10%;
+        margin: 0 5px;
+        text-decoration: none !important;
+    }
+</style>
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script>
+    $(".list-button").click(function() {
+        $(".table-videos").toggle();
+        $(".overlay").toggleClass("minor-height", "max-height");
+
+    });
+</script>
+
+</html>

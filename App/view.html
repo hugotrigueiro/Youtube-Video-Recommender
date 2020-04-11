@@ -1,0 +1,332 @@
+<!-- VIEW -->
+<html>
+
+    <head>
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <section id="header">
+            <div class="container">
+                <h1 class="title">Recomendador de Vídeos do Youtube</h1>
+                <h3 class="subtitle">Segundos desde a última atualização: -1586498681.9738324</h3>
+            </div>
+        </section>
+        <section id="bg">
+            <div class="overlay">    
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3">
+                            <h3 class="title-top">Top 5 Vídeos com Maior Score</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="carousel slide" data-interval="false" data-ride="carousel" id="carouselExampleControls">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="iframe-video" frameborder="0" height="337" src="https://www.youtube.com/embed/ykSILAQQu6o" width="600"></iframe>
+                                        <div>
+                                            <p>Score: <b>0.9825688134784878</b></p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="iframe-video" frameborder="0" height="337" src="https://www.youtube.com/embed/F608hzn_ygo" width="600"></iframe>
+                                        <div>
+                                            <p>Score: <b>0.972728113485336</b></p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="iframe-video" frameborder="0" height="337" src="https://www.youtube.com/embed/qrhRfPY4F4w" width="600"></iframe>
+                                        <div>
+                                            <p>Score: <b>0.9188637620765514</b></p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="iframe-video" frameborder="0" height="337" src="https://www.youtube.com/embed/L_SZQKv5Cl0" width="600"></iframe>
+                                        <div>
+                                            <p>Score: <b>0.8864583509519435</b></p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="iframe-video" frameborder="0" height="337" src="https://www.youtube.com/embed/X3paOmcrTjQ" width="600"></iframe>
+                                        <div>
+                                            <p>Score: <b>0.8748062763813993</b></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" data-slide="prev" href="#carouselExampleControls" role="button"> <span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span> </a>
+                                <a class="carousel-control-next" data-slide="next" href="#carouselExampleControls" role="button"> <span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="sr-only">Next</span> </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="section-table">
+                        <button class="btn btn-primary btn-sm list-button" type="button">Lista Completa de Vídeos Recomendados</button>
+                        <table class="table-videos">
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/ykSILAQQu6o">O que é ciência de dados | Nerdologia Tech</a></th>
+                                <th>0.9825688134784878</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/F608hzn_ygo">Data Science: Introdução a Ciência de Dados (Primeira aula prática programando em Python)</a></th>
+                                <th>0.972728113485336</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/qrhRfPY4F4w">The most important skills of data scientists | Jose Miguel Cansado | TEDxIEMadrid</a></th>
+                                <th>0.9188637620765514</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/L_SZQKv5Cl0">Ciência de dados: como é criar o primeiro projeto de Data Science - TecMundo</a></th>
+                                <th>0.8864583509519435</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/X3paOmcrTjQ">Data Science In 5 Minutes | Data Science For Beginners | What Is Data Science? | Simplilearn</a></th>
+                                <th>0.8748062763813993</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/8LucP1wiX1g">Data Science: Reality vs Expectations ($100k+ Starting Salary 2018)</a></th>
+                                <th>0.8667254373193919</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/Ck0ozfJV9-g">A Day In The Life Of A Data Scientist</a></th>
+                                <th>0.8580026012823126</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/YR2WYqGMLwA">gravação | data science como a nova ciência social definitiva, com kaike nanne, jornalista</a></th>
+                                <th>0.8524659894301949</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/ErqEKDdiIA8">O que é data science</a></th>
+                                <th>0.8517499819293564</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/5b9Z8toVaAU">O que é Data Science? #HipstersPontoTube</a></th>
+                                <th>0.8505875332354834</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/-AkBfBWr_Gw">Can You Become a Data Scientist?</a></th>
+                                <th>0.8480283308168629</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/xC-c7E5PK0Y">O que realmente é Ciência de Dados? Explicado por um Cientista de Dados</a></th>
+                                <th>0.8299547444533062</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/zNoLeZi5gpk">A data science como a nova ciência social definitiva | Kaike Nanne</a></th>
+                                <th>0.7583218964467727</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/9rDhY1P3YLA">Learn Data Science in 3 Months</a></th>
+                                <th>0.7520311236950354</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/gxyjGmOV540">Como ingressar no MERCADO de DATA SCIENCE | Bit de Prosa #8 (Especial Alura)</a></th>
+                                <th>0.7176081445411371</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/ccZ2pyr3YDw">Qual a diferença entre Inteligência Artificial, Machine Learning, Data Science, Deep Learning, etc?</a></th>
+                                <th>0.7140650907674524</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/Pb3AAfz5Yjg">Top 3 Programming Languages to Learn in 2019</a></th>
+                                <th>0.6973312080790112</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/a6StZPu-16I">Precisa de FACULDADE pra trabalhar com DATA SCIENCE? | Bit de Prosa #9 (Especial Alura)</a></th>
+                                <th>0.657708635491746</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/ua-CiDNNj30">Learn Data Science Tutorial - Full Course for Beginners</a></th>
+                                <th>0.5883509556352912</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/umq9kCJFavw">Como é ser data scientist no Nubank</a></th>
+                                <th>0.5421996236692235</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/repvSAPjB-s">Uma jornada rumo à Data Science - Christiano Anderson</a></th>
+                                <th>0.42963240284161736</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/n3vw0M5RrPU">How I Learned Data Science</a></th>
+                                <th>0.28131894635656285</th>
+                            </tr>
+                            <tr>
+                                <th><a href="https://www.youtube.com/embed/Opc9D-CTPuQ">Porque estudar Data Science com a Udacity e a Tableau - TecMundo</a></th>
+                                <th>0.2460544583228249</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section-footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 offset-md-4">
+                        <p>Criado por Hugo Trigueiro</p>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-4 offset-md-4">
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/in/hugo-trigueiro/"></a>
+                        <a class="fa fa-github" href="https://github.com/hugotrigueiro"></a>
+                        <a class="fa fa-medium" href="https://medium.com/@hugotrigueiro"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+        <style>
+            #header {
+                background-color: #2c3e50;
+                color: #fff;
+                padding: 10px 0px 10px 0px;
+            }
+
+            body {
+                color: #fff;
+                font-family: "Montserrat", sans-serif;
+                margin: 0px;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                text-align: center;
+            }
+            
+            #bg {
+                background-image: url("./static/img/data-science-wallpaper.jpg");
+                background-size: cover;
+            }
+            
+            .overlay {
+                background-color: rgba(0, 0, 0, 0.76);
+                padding: 20px 0px 0px 0px;
+            }
+            
+            .title {
+                font-size: 28px;
+                margin: 10px auto;
+            }
+            
+            .subtitle {
+                font-size: 14px;
+                display: none;
+            }
+            
+            .title-top {
+                font-size: 24px;
+                margin: 10px auto;
+            }
+            
+            .iframe-video {
+                display: block;
+                margin: 0 auto;
+            }
+            /* Carrossel */
+            
+            .carousel-inner {
+                max-width: 800px;
+                display: block;
+                margin: 0 auto;
+            }
+            
+            .carousel-item div p {
+                text-align: center;
+                font-size: 18px;
+                margin: 5px auto;
+            }
+            
+            /* Table */
+            
+            #section-table {
+                padding: 10px 0px 20px 0px;
+            }
+            
+            .list-button {
+                display: block;
+                margin: 0 auto;
+                padding: 10px 30px;
+                font-size: 16px;
+            }
+            
+            .table-videos {
+                display: none;
+                margin: 30px auto;
+            }
+            .table-videos tbody tr th {
+                font-size: 14px;
+                padding: 0px 3px;
+            }
+            /* Footer */
+            
+            #section-footer {
+                padding: 10px 0px 10px 0px;
+                background-color: #000;
+                text-align: center;
+            }
+            
+            #section-footer .container p {
+                margin: 0;
+            }
+            
+            .fa {
+                padding: 8px;
+                font-size: 16px;
+                text-align: center;
+                border-radius: 10%;
+                margin: 0 5px;
+                text-decoration: none !important;
+            }
+
+            /*MOBILE*/
+            @media only screen and (max-width: 997px) {
+                .iframe-video {
+                    max-width: 500;
+                    max-height: 280;
+                }
+                .title-top {
+                    font-size: 18px;
+                    margin: 10px auto 20px 0px;
+                }
+            }
+            @media only screen and (max-width: 767px) {
+                .iframe-video {
+                    max-width: 400;
+                    max-height: 224;
+                }
+            }
+            @media only screen and (max-width: 500px) {
+                .iframe-video {
+                max-width: 300px;
+                max-height: 168;
+                }
+                .table-videos tbody tr th {
+                    font-size: 12px;
+                    padding: 0px 3px;
+                }
+            }
+        </style>
+
+
+        <script crossorigin="anonymous" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script crossorigin="anonymous" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script crossorigin="anonymous" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script>
+            $(".list-button").click(function() {
+                $(".table-videos").toggle();
+            });
+        </script>
+    </body>
+
+</html>

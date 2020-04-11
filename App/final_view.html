@@ -1,0 +1,171 @@
+</div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="section-footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 offset-md-4">
+                        <p>Criado por Hugo Trigueiro</p>
+                    </div>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-md-4 offset-md-4">
+                        <a class="fa fa-linkedin" href="https://www.linkedin.com/in/hugo-trigueiro/"></a>
+                        <a class="fa fa-github" href="https://github.com/hugotrigueiro"></a>
+                        <a class="fa fa-medium" href="https://medium.com/@hugotrigueiro"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+
+        <style>
+            #header {
+                background-color: #2c3e50;
+                color: #fff;
+                padding: 10px 0px 10px 0px;
+            }
+
+            body {
+                color: #fff;
+                font-family: "Montserrat", sans-serif;
+                margin: 0px;
+            }
+            
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                text-align: center;
+            }
+            
+            #bg {
+                background-image: url("./static/img/data-science-wallpaper.jpg");
+                background-size: cover;
+            }
+            
+            .overlay {
+                background-color: rgba(0, 0, 0, 0.76);
+                padding: 20px 0px 0px 0px;
+            }
+            
+            .title {
+                font-size: 28px;
+                margin: 10px auto;
+            }
+            
+            .subtitle {
+                font-size: 14px;
+                display: none;
+            }
+            
+            .title-top {
+                font-size: 24px;
+                margin: 10px auto;
+            }
+            
+            .iframe-video {
+                display: block;
+                margin: 0 auto;
+            }
+            /* Carrossel */
+            
+            .carousel-inner {
+                max-width: 800px;
+                display: block;
+                margin: 0 auto;
+            }
+            
+            .carousel-item div p {
+                text-align: center;
+                font-size: 18px;
+                margin: 5px auto;
+            }
+            
+            /* Table */
+            
+            #section-table {
+                padding: 10px 0px 20px 0px;
+            }
+            
+            .list-button {
+                display: block;
+                margin: 0 auto;
+                padding: 10px 30px;
+                font-size: 16px;
+            }
+            
+            .table-videos {
+                display: none;
+                margin: 30px auto;
+            }
+            
+            .table-videos tbody tr th {
+                font-size: 14px;
+            }
+            /* Footer */
+            
+            #section-footer {
+                padding: 10px 0px 10px 0px;
+                background-color: #000;
+                text-align: center;
+            }
+            
+            #section-footer .container p {
+                margin: 0;
+            }
+            
+            .fa {
+                padding: 8px;
+                font-size: 16px;
+                text-align: center;
+                border-radius: 10%;
+                margin: 0 5px;
+                text-decoration: none !important;
+            }
+
+            /*MOBILE*/
+            @media only screen and (max-width: 997px) {
+                .iframe-video {
+                    max-width: 500;
+                    max-height: 280;
+                }
+                .title-top {
+                    font-size: 18px;
+                    margin: 10px auto 20px 0px;
+                }
+            }
+            @media only screen and (max-width: 767px) {
+                .iframe-video {
+                    max-width: 400;
+                    max-height: 224;
+                }
+            }
+            @media only screen and (max-width: 500px) {
+                .iframe-video {
+                max-width: 300px;
+                max-height: 168;
+                }
+                .table-videos tbody tr th {
+                    font-size: 12px;
+                    padding: 0px 3px;
+                }
+            }
+        </style>
+
+
+        <script crossorigin="anonymous" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script crossorigin="anonymous" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script crossorigin="anonymous" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <script>
+            $(".list-button").click(function() {
+                $(".table-videos").toggle();
+            });
+        </script>
+    </body>
+
+</html>
