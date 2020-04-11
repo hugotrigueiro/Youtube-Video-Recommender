@@ -20,6 +20,7 @@ def get_predictions():
             
     predictions = []
     new_videos = pd.read_csv("new_videos.csv", sep=";")
+    new_videos = new_videos.drop_duplicates()
     for row in new_videos.iterrows():
         predictions.append((row[1]["video_id"], row[1]["title"], float(row[1]["score"]), row[1]["thumb"]))
         

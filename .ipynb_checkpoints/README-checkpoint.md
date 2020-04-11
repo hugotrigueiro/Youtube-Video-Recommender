@@ -42,7 +42,7 @@ Foram utilizadas as seguintes ferramentas na criação e execução do projeto:
 ## Estrutura do Projeto:
 
 ### 1. Coleta de Dados
-A coleta dos dados se fez diretamente pela forma de Web Scraping, realizando a pesquisa com palavras-chave e "raspando" os dados da web da página do YouTube. Para realizar essa coleta é necessário algum conhecimento em HTML e CSS a fim de buscar e filtrar os dados procurados nas tags de HTML corretamente.
+A coleta dos dados se fez diretamente pela forma de Web Scraping, realizando a pesquisa com palavras-chave e "raspando" os dados da web da página do YouTube. Para realizar essa coleta é necessário algum conhecimento em HTML e CSS a fim de buscar e filtrar os dados procurados nas tags. Neste processo, também foi se escolhido um conjunto de campos a serem "raspados" das páginas de vídeos, nem todos são necessários para a modelagem, mas trazer muitas informações ajuda a enriquecer as possibilidade de análises posteriores.
 
 ### 2. Tratamento e Preparação dos Dados
 Em geral, dados coletados através de Web Scraping costumam vir bastante "sujos", ou seja, dados em sua forma bruta que necessitam de camadas de limpeza e tratamento para que possam ser analisados. Nesta etapa, foram criadas algumas funções de extração de texto (usando expressões regulares), ajustes de datas e transformações numéricas que preparassem os dados para a análise. Durante esta etapa também foram criados os labels (variável y) de interesse nos vídeos de forma manual em uma planilha no Excel, este processo se deu com a leitura dos títulos e a classificação de **1 = Tenho interesse | 0 = Não tenho interesse.**
