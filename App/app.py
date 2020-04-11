@@ -54,7 +54,6 @@ def get_predictions():
 @app.route('/')
 def main_page():
     preds, carrousel, last_update = get_predictions()
-<<<<<<< HEAD:App/app.py
     base_html = codecs.open("base_view.html", "r", "utf-8").read().format((time.time() - last_update) / 1e9, carrousel)
     final_html = codecs.open("final_view.html", "r", "utf-8").read()
     result = base_html + """
@@ -63,12 +62,11 @@ def main_page():
     view.write(result.encode())
     view.close()
     return result
-=======
+
     base_html = codecs.open("base_view.html", "r", "utf-8").read().replace("\n", "").format((time.time() - last_update) / 1e9, carrousel)
     final_html = codecs.open("final_view.html", "r", "utf-8").read().replace("\n", "")
     return base_html + """
             <table class="table-videos">{}""".format(preds) + final_html
->>>>>>> parent of 7369c88... update8:app.py
 
 
 if __name__ == '__main__':
