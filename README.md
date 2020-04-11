@@ -57,5 +57,6 @@ Inicialmente nesta etapa, por não haver nenhuma solução já existente que ser
 A entrega dos resultados previstos pelo modelo foi realizada através da criação e disponibilização de uma [aplicação online](https://ytvideo-recommender-by-hugo.herokuapp.com/) (feita em Flask) que realiza todo o processo de coleta, limpeza, preparação e predição dos dados. Também foi desenvolvida, para a entrega dos resultados, uma interface interativa com os top 5 vídeos com o melhor score de recomendação embedados diretamente em um objeto de carrossel interativo além de também haver a opção de se abrir uma lista completa com os 30 vídeos melhor recomendados. A aplicação também está responsiva, podendo ser bem visualizada em dispositivos Mobile (Smartphones), Tablets e Desktop.
 
 ## Informações adicionais:
-Autor - Hugo Trigueiro | Contatos: [Medium](https://medium.com/@hugotrigueiro), [LinkedIn](https://www.linkedin.com/in/hugo-trigueiro/) 
+Autor - Hugo Trigueiro | Contatos: [Medium](https://medium.com/@hugotrigueiro) & [LinkedIn](https://www.linkedin.com/in/hugo-trigueiro/)
+
 PS: Agradecimentos ao [Diego Zurita](https://github.com/DiegoZurita) que me deu uma força com o Docker no desenvolvimento deste projeto.
