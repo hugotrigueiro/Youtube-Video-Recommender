@@ -8,9 +8,6 @@ import codecs
 
 app = Flask(__name__)
 
-queries = ['Data+Science', 'Machine+Learning']
-limit_page = 2
-
 def get_predictions():
     
     new_videos_csv = "new_videos.csv"
