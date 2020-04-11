@@ -63,11 +63,6 @@ def main_page():
     view.close()
     return result
 
-    base_html = codecs.open("base_view.html", "r", "utf-8").read().replace("\n", "").format((time.time() - last_update) / 1e9, carrousel)
-    final_html = codecs.open("final_view.html", "r", "utf-8").read().replace("\n", "")
-    return base_html + """
-            <table class="table-videos">{}""".format(preds) + final_html
-
 
 if __name__ == '__main__':
     app.run(debug=True, host='0.0.0.0')
