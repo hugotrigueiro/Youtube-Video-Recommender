@@ -5,8 +5,9 @@ Acesse a aplicação disponível com o [Recomendador de vídeos do YouTube - by 
 ![Gif do Projeto](Demais%20Arquivos/yt_rec-optimize.gif)
 *Gif Demonstrativo*
 
-<img style="display: block;margin: 0 auto;" src="Demais Arquivos/yt_rec-optimize.gif" alt="Gif Demonstrativo">
-
+<p align="center">
+    <img src="Demais Arquivos/yt_rec-optimize.gif" alt="Gif Demonstrativo">
+</p>
 <figure class="image">
   <img src="Demais Arquivos/yt_rec-optimize.gif" alt="Gif Demonstrativo" style="display: block; margin: 0 auto;">
   <figcaption>Gif Demonstrativo</figcaption>
