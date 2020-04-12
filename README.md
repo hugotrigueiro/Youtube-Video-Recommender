@@ -2,7 +2,7 @@
 
 Acesse a aplicação disponível com o [Recomendador de vídeos do YouTube - by Hugo Trigueiro](https://ytvideo-recommender-by-hugo.herokuapp.com/)
 
-![Gif do Projeto](Demais Arquivos/yt_rec-optimize.gif)
+![Gif do Projeto](Demais%20Arquivos/yt_rec-optimize.gif)
 
 
 ## Sobre o projeto:
