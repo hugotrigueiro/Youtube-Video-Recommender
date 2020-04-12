@@ -9,7 +9,7 @@ Acesse a aplicação disponível com o [Recomendador de vídeos do YouTube - by 
 
 
 ## Sobre o projeto:
-Este projeto foi baseado no projeto de execução ensinado no [Curso de Data Science | Mario Filho](http://mariofilho.com/curso/).
+Este projeto foi baseado no projeto de execução ensinado no [Curso de Como criar uma solução completa de Data Science | Mario Filho](http://mariofilho.com/curso/).
 
 No curso um recomendador de vídeos do YouTube é criado a partir de um processo End-to-End, ou seja, passando por todas as seguintes etapadas de desenvolvimento:
 - Coleta
