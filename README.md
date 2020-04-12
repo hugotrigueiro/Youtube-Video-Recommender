@@ -2,16 +2,11 @@
 
 Acesse a aplicação disponível com o [Recomendador de vídeos do YouTube - by Hugo Trigueiro](https://ytvideo-recommender-by-hugo.herokuapp.com/)
 
-![Gif do Projeto](Demais%20Arquivos/yt_rec-optimize.gif)
-*Gif Demonstrativo*
-
 <p align="center">
     <img src="Demais Arquivos/yt_rec-optimize.gif" alt="Gif Demonstrativo">
+    <p align="center" style="font-size: 12px">Gif Demonstrativo</p>
 </p>
-<figure class="image">
-  <img src="Demais Arquivos/yt_rec-optimize.gif" alt="Gif Demonstrativo" style="display: block; margin: 0 auto;">
-  <figcaption>Gif Demonstrativo</figcaption>
-</figure>
+
 
 ## Sobre o projeto:
 Este projeto foi baseado no projeto de execução ensinado no [Curso de Data Science | Mario Filho](http://mariofilho.com/curso/).
