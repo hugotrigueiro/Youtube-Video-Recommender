@@ -64,4 +64,4 @@ A entrega dos resultados previstos pelo modelo foi realizada através da criaç�
 ## Informações adicionais:
 Autor - Hugo Trigueiro | Contatos: [Medium](https://medium.com/@hugotrigueiro) & [LinkedIn](https://www.linkedin.com/in/hugo-trigueiro/)
 
-PS: Agradecimentos ao [Diego Zurita](https://github.com/DiegoZurita), tive um pequeno problema com o Docker e ele me deu uma força com o Docker para resolver.
+PS: Agradecimentos ao [Diego Zurita](https://github.com/DiegoZurita), tive um pequeno problema com o Docker e ele me deu uma força para resolver.
