@@ -68,7 +68,7 @@ A etapa inicial de qualquer projeto passa pela definição do problema que será
 
 Com esse panorâma geral do problema definido, já se pode partir para as próximas etapas com uma melhor noção do que fazer no caminho a ser traçado.
 
-### 2. Coleta de Dados
+### 2. Coleta dos Dados
 A coleta dos dados se fez diretamente pela forma de Web Scraping, realizando a pesquisa com palavras-chave e "raspando" os dados da web da página do YouTube. Para realizar essa coleta é necessário algum conhecimento em HTML e CSS a fim de buscar e filtrar os dados procurados nas tags. Neste processo, também foi se escolhido um conjunto de campos a serem "raspados" das páginas de vídeos, nem todos são necessários para a modelagem, mas trazer muitas informações ajuda a enriquecer as possibilidades de análises posteriores.
 
 ### 3. Tratamento e Preparação dos Dados
